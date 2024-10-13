@@ -9,7 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        verydark_heuristic: "#212222",
+        dark_heuristic: "#2F3030",
+        blue_heuristic: "#546382",
+        yellow_heuristic: "#F4F1D0",
+        
+
+
         foreground: "var(--foreground)",
       },
     },

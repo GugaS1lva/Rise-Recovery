@@ -12,6 +12,16 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const sourceCodePro = localFont({
+  src: "./fonts/SourceCodePro-VariableFont_wght.ttf",
+  variable: "--font-source-code-pro",
+  weight: "100 900",
+});
+const sourceCodeProItalicVariableFont = localFont({
+  src: "./fonts/SourceCodePro-Italic-VariableFont_wght.ttf",
+  variable: "--font-source-code-pro-italic-variable",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} ${sourceCodeProItalicVariableFont.variable} ${sourceCodePro.variable} antialiased bg-[#E5E5E5]`}>
         {children}
       </body>
     </html>
