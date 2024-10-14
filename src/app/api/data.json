@@ -1,0 +1,16 @@
+[
+  {
+    "link": "https://youtube.com",
+    "image": "",
+    "name": "item name",
+    "description": "item 01 description",
+    "spec": "item 01 specifications"
+  },
+  {
+    "link": "https://google.com",
+    "image": "/public/images/image1.jpg",
+    "name": "item name",
+    "description": "item 02 description",
+    "spec": "item 02 specifications"
+  }
+]

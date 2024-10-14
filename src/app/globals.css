@@ -26,3 +26,37 @@ body {
     text-wrap: balance;
   }
 }
+
+// TESTAR COLOCAR ISSO NAS IMAGENS PRO EFEITO FICAR BOM
+
+/* .absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.z-10 {
+  z-index: 10;
+} */

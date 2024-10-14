@@ -1,9 +1,12 @@
-import Card from "./card";
+import CardList from "./cardList/page";
 
 export default function industrialShopp() {
   return (
-    <main className="w-screen h-screen ">
-      <Card />
+    // text-[#F3F3F3]/70 text-[#F3F3F3]/35
+    <main className="w-screen h-screen bg-dark_heuristic text-[#F3F3F3]">
+      <h1>Lista de desejos.</h1>
+
+      <CardList />
     </main>
   )
 }
